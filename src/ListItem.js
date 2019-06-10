@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { StackNavigator } from 'react-navigation';
+import { NavigationActions } from 'react-navigation';
 
 import {
   View,
@@ -30,7 +30,7 @@ export default class ListItem extends Component {
       <TouchableHighlight onPress={this.click} underlayColor="#CCCCCC">
         <View style={styles.item}>
           <Image
-            source={{ urix: this.props.data.photo }}
+            source={{ uri: this.props.data.photo }}
             style={styles.imagem}
           />
           <View style={styles.info}>
