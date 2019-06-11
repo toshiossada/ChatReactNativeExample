@@ -20,8 +20,7 @@ export default class ListItem extends Component {
   }
 
   click() {
-    const { navigate } = this.props.navigation;
-    navigate.navigate("Message", { key: this.props.data.key });
+    this.props.navigation.navigate("Message", { key: this.props.data.key });
     //alert(`Clicou para abrir a conversa ${this.props.data.key}`);
   }
 

@@ -23,7 +23,7 @@ export default class Contacts extends Component {
       <View style={styles.container}>
         <FlatList 
           data={this.state.list}
-          renderItem={({item}) => <ListItem data={item} />}
+          renderItem={({item}) => <ListItem data={item} navigation={this.props.navigation} />}
         />
       </View>
     );

@@ -8,15 +8,15 @@ export default class Message extends Component {
 		super(props);
 		this.state = {
 			chat:[
-				{key:'1', nome:'Bonieky', msg:'Oi', m:true},
-				{key:'2', nome:'Laura', msg:'Opa, tudo bem?', m:false},
-				{key:'3', nome:'Laura', msg:'Como vai a vida?', m:false},
-				{key:'4', nome:'Bonieky', msg:'Vai muito bem, graças a Deus. E você? Eu soube que você está bem legal!', m:true},
-				{key:'5', nome:'Laura', msg:'Também, muito legal!', m:false},
-				{key:'6', nome:'Bonieky', msg:'Maravilha!', m:true},
-				{key:'7', nome:'Bonieky', msg:'Grande abraço!', m:true},
-				{key:'8', nome:'Laura', msg:'Bjos!', m:false},
-				{key:'9', nome:'Laura', msg:'Até mais!', m:false}
+				{key:'1', nome:'Toshi', msg:'Oi', m:true},
+				{key:'2', nome:'Bianca', msg:'Opa, tudo bem?', m:false},
+				{key:'3', nome:'Bianca', msg:'Como vai a vida?', m:false},
+				{key:'4', nome:'Toshi', msg:'Estou bem e você?', m:true},
+				{key:'5', nome:'Bianca', msg:'Também', m:false},
+				{key:'6', nome:'Toshi', msg:'Maravilha!', m:true},
+				{key:'7', nome:'Toshi', msg:'Grande abraço!', m:true},
+				{key:'8', nome:'Bianca', msg:'Bjos!', m:false},
+				{key:'9', nome:'Bianca', msg:'Até mais!', m:false}
 			]
 		};
 	}
